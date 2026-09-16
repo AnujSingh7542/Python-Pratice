@@ -1,1 +1,6 @@
-
+Basic_Salary = int(input("Enter Your Salary"))
+Gross_Salary = DA + HRA + Basic_Salary
+DA = Badic_Salary * 0.4
+HRA = Basic_Salary * 0.2
+Basic_Salary = DA + HRA + Basic_Salary
+print("Your Gross_Salary is", Basic_Salary)
