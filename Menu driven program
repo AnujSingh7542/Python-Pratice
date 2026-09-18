@@ -3,14 +3,15 @@ print("2-CI")
 Ch = int(input("Enter to choice the number"))
 if Ch == 1
 P = int(input("Enter principle"))
-r = nint(input(Enter rate"))
+r = int(input(Enter rate"))
 t = int(input("Enter time"))
 SI = (p * r * t) / 100
-print("simple interest =", SI)
+      print("simple interest =", SI)
 elif Ch == 2
-p = int(input("Enter the principle"))
-r = int(input("Enter the rate"))
+p = int(input("Enter principle"))
+r = int(input("Enter rate"))
 t = int(input(Enter time"))
-CI = (p *  mathpoiunt(1 + r / 100, t)
+CI = p *  mathpoiunt(1 + r / 100, t)
+     print("Compound Interest", CI)
 else:
-print("Wrong choice please enter 1 or 2")
+    print("Wrong choice please enter 1 or 2")
