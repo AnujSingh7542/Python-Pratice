@@ -3,7 +3,7 @@ n =int(input("Enter the location of the number"))
 count = 0
 num = 1
 while count < n:
-    num = num +1
+    num = num + 1
     prime = True
     for i in range(2,num):
         if num % i == 0:
