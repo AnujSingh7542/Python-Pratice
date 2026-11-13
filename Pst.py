@@ -1,17 +1,11 @@
-# Neon :- It is a number in which the sum of the digit of its square is equal to the original number.
-# For ex :- n = 9 
-# n = 9 * 9 = 81
-# 81 = 8 + 1 = 9
-# 9 is original number and it is called Neon number.
+# Automorphic Number :- It is a number whose square end with the same digits as the number itself.
+# for ex:- n = 5 
+# n = 5 * 5 = 25
 
-num=int(input("Enter a number"))
-sum = 0
+num =int(input("Enter a number"))
 square = num * num
-while square > 0:
-    digit = square % 10
-    sum = sum + digit
-    square = square // 10
-if sum == num:
-    print(" Neon number")
+digit = len(str(num))
+if square % (10 ** digit) == num:
+    print("Automorphic Number")
 else:
-    print("Not neon number")
+    print("Not Automorphic Number")
